@@ -15,6 +15,9 @@ import Stages from "../../widgets/Stages/Stages";
 import Banner from "../../widgets/Banner/Banner";
 import Why from "../../widgets/Why/Why";
 import Reviews from "../../widgets/Reviews/Reviews";
+import FAQAccordion from "../../widgets/FaqAccordion/FaqAccordion";
+import FormWidget from "../../widgets/Form/FormWidget";
+import Footer from "../../widgets/Footer/Footer";
 
 const MainPage: React.FC = () => {
     return (
@@ -85,7 +88,11 @@ const MainPage: React.FC = () => {
                 <Banner />
                 <Why />
                 <Reviews />
+                <FAQAccordion />
+                <FormWidget />
             </main>
+
+            <Footer />
 
         </>
     );
